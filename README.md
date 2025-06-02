@@ -6,7 +6,7 @@ It supports manual lineage selection and auto-detection (via SEPP). It also gene
 
 ## About Compleasm
 
-Compleasm is a tool designed to assess the completeness of genome assemblies based BUSCO lineages. Developed by [Neng Huang and [Heng Li](https://doi.org/10.1093/bioinformatics/btad595) the Department of Data Sciences at Dana-Farber Cancer Institute and the Department of Biomedical Informatics at Harvard Medical School, Compleasm offers a faster and more accurate alternative to traditional methods like BUSCO.
+Compleasm is a tool designed to assess the completeness of genome assemblies based BUSCO lineages. Developed by [Neng Huang and [Heng Li](https://doi.org/10.1093/bioinformatics/btad595), Compleasm offers a faster and more accurate alternative to traditional methods like BUSCO.
 
 ## Installation
 1️⃣ Install Compleasm (via Conda/Mamba)

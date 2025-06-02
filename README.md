@@ -63,3 +63,16 @@ klebsiella_results/
 ├── genome2/
 │   ├── summary.txt
 ```
+A **single summary file** is generated: <br>
+✅ compleasm_summary.tsv in the output directory <br>
+✅ Contains one header and one row per genome <br>
+✅ The first column is the basename of the genome FASTA file:
+
+
+```
+Sample	Complete (%)	Single-Copy (%)	Duplicated (%)	Fragmented (%)	Missing (%)	Total BUSCOs
+genome1	98.2	97.0	1.2	1.0	0.8	440
+genome2	95.5	93.8	1.7	2.5	2.0	440
+
+```
+

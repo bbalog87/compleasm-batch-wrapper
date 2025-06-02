@@ -27,7 +27,7 @@ Compleasm supports two modes for selecting a lineage:
 
 ## Usage
 
-```b./run_compleasm.sh -i <input_directory> [-l <lineage> | --autolineage] [-o <output_directory>] [-t <threads>]```
+```./run_compleasm.sh -i <input_directory> [-l <lineage> | --autolineage] [-o <output_directory>] [-t <threads>]```
 
 ## Arguments
 | Argument          | Type    | Required      | Description                                                          |

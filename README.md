@@ -98,7 +98,6 @@ compleasm list
 For advanced options, here’s the ```compleasm run --help output```
 
 ````
-
 usage: compleasm run [-h] -a ASSEMBLY_PATH -o OUTPUT_DIR [-t THREADS]
                      [-l LINEAGE] [-L LIBRARY_PATH] [--odb ODB]
                      [--specified_contigs SPECIFIED_CONTIGS [SPECIFIED_CONTIGS ...]]
@@ -135,5 +134,3 @@ optional arguments:
   --min_length_percent  The fraction of protein for valid mapping results.
   --min_complete MIN_COMPLETE The length threshold for complete gene.
   --min_rise MIN_RISE   Minimum length threshold for duplication vs single/frag.
-
-```

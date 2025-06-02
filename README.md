@@ -93,3 +93,47 @@ compleasm list
 
 ```
 
+## Compleasm Command Reference
+
+For advanced options, here’s the ```compleasm run --help output```
+
+````
+
+usage: compleasm run [-h] -a ASSEMBLY_PATH -o OUTPUT_DIR [-t THREADS]
+                     [-l LINEAGE] [-L LIBRARY_PATH] [--odb ODB]
+                     [--specified_contigs SPECIFIED_CONTIGS [SPECIFIED_CONTIGS ...]]
+                     [--outs OUTS]
+                     [--miniprot_execute_path MINIPROT_EXECUTE_PATH]
+                     [--hmmsearch_execute_path HMMSEARCH_EXECUTE_PATH]
+                     [--autolineage] [--retrocopy]
+                     [--sepp_execute_path SEPP_EXECUTE_PATH]
+                     [--min_diff MIN_DIFF] [--min_identity MIN_IDENTITY]
+                     [--min_length_percent MIN_LENGTH_PERCENT]
+                     [--min_complete MIN_COMPLETE] [--min_rise MIN_RISE]
+
+optional arguments:
+  -h, --help            Show this help message and exit.
+  -a ASSEMBLY_PATH      Input genome file in FASTA format.
+  -o OUTPUT_DIR         The output folder.
+  -t THREADS            Number of threads to use.
+  -l LINEAGE            Specify the name of the BUSCO lineage to be used.
+                        (e.g. eukaryota, primates, saccharomycetes etc.)
+  -L LIBRARY_PATH       Folder path to download lineages or already downloaded
+                        lineages. If not specified, a folder named
+                        "mb_downloads" will be created on the current running
+                        path by default to store the downloaded lineage files.
+  --odb ODB             OrthoDB version, default: odb12.
+  --specified_contigs   Specify the contigs to be evaluated, e.g. chr1 chr2.
+  --outs OUTS           Output if score at least FLOAT*bestScore [0.99].
+  --miniprot_execute_path Path to miniprot executable.
+  --hmmsearch_execute_path Path to hmmsearch executable.
+  --autolineage         Automatically search for the best matching lineage.
+  --retrocopy           Separate retrocopy genes from duplicated genes.
+  --sepp_execute_path   Path to run_sepp.py executable.
+  --min_diff MIN_DIFF   Threshold for best vs second-best matching.
+  --min_identity MIN_IDENTITY The identity threshold for valid mapping results.
+  --min_length_percent  The fraction of protein for valid mapping results.
+  --min_complete MIN_COMPLETE The length threshold for complete gene.
+  --min_rise MIN_RISE   Minimum length threshold for duplication vs single/frag.
+
+```

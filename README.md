@@ -3,6 +3,11 @@
 This script automates running [Compleasm](https://github.com/huangnengCSU/compleasm) on multiple genome assemblies (FASTA format) to assess genome completeness using BUSCO lineages. 
 It supports manual lineage selection and auto-detection (via SEPP). It also generates a single summary table with results for all input genomes.
 
+
+## About Compleasm
+
+Compleasm is a tool designed to assess the completeness of genome assemblies based BUSCO lineages. Developed by [Neng Huang and [Heng Li](https://doi.org/10.1093/bioinformatics/btad595) the Department of Data Sciences at Dana-Farber Cancer Institute and the Department of Biomedical Informatics at Harvard Medical School, Compleasm offers a faster and more accurate alternative to traditional methods like BUSCO.
+
 ## Installation
 1️⃣ Install Compleasm (via Conda/Mamba)
 

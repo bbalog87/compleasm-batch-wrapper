@@ -76,3 +76,20 @@ genome2	95.5	93.8	1.7	2.5	2.0	440
 
 ```
 
+## ⚠️ Note on Lineage Autodetection
+
+While Compleasm supports automatic lineage detection using the  ``` --autolineage ``` option (requires SEPP), this feature **may not always select the most appropriate lineage for your specific genomes**.<br>
+
+For best results, it is **recommended to manually specify the lineage** using the  ``` -l <lineage>``` option. <br>
+For example, for *Salmonella* or *Klebsiella* genomes, use:
+
+```
+-l enterobacterales
+```
+You can list available BUSCO lineages by running: <br>
+
+```
+compleasm list
+
+```
+

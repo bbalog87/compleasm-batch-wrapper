@@ -16,6 +16,7 @@
 # Optional arguments:
 #   -o, --output        Output directory for Compleasm results [default: compleasm_out]
 #   -t, --threads       Number of CPU threads [default: 8]
+#   --clean             After summary generation, delete all per-sample folders (keeps master summary & lineages)
 #   -h, --help          Show this help message and exit
 #
 # Example:
@@ -29,6 +30,7 @@ LINEAGE=""
 AUTOLINEAGE=false
 OUTPUT_DIR="compleasm_out"
 N_THREADS=8
+CLEAN=false
 
 # === Parse arguments ===
 while [[ "$#" -gt 0 ]]; do
